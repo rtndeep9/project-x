@@ -1,0 +1,23 @@
+.Hero {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+
+    .content {
+        flex: 0.7;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .image {
+        flex: 0.3;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,75 @@
+// .Footer {
+//     display: flex;
+//     flex-direction: row;
+//     // height: auto;
+//     width: auto;
+//     margin: auto;
+//     margin-top: 80px;
+//     align-items: center;
+//     justify-content: space-evenly;
+//     background-color: lightgrey;
+//     position: relative;
+
+//     p {
+//         margin: unset;
+//     }
+
+//     .Contact,
+//     .Service,
+//     .Customer,
+//     .Company {
+
+//         margin-top: 0px;
+//     }
+// }
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    // height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+
+    .Heading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+            flex: 0.25;
+            text-align: center;
+        }
+
+    }
+
+    .Contents {
+
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        .Contact,
+        .Service,
+        .Customer,
+        .Company {
+
+            display: flex;
+            flex: 0.25;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                margin: unset;
+            }
+        }
+    }
+}
